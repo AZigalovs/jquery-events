@@ -13,6 +13,14 @@ $(document).ready(function() {
         $("#par3").toggle(1000);
     });
 
+    $("#button_effects4").click(function(){
+        $("#par4").slideToggle(1000);
+    });
+
+    $("#button_effects5").click(function(){
+        $("#par5").slideToggle(1000);
+    });
+
     $("p").click(function(){
         $("p").css("color", "red");
     });
