@@ -21,6 +21,18 @@ $(document).ready(function() {
         $("#par5").slideToggle(1000);
     });
 
+    $("#button_effects6").click(function(){
+        $("#par6").slideToggle(1000);
+    });
+
+    $("#button_effects6").mouseenter(function(){
+        $("#par6").fadeTo(1000, 0.5);
+    });
+
+    $("#button_effects6").mouseleave(function(){
+        $("#par6").fadeTo(1000, 1);
+    });
+
     $("p").click(function(){
         $("p").css("color", "red");
     });
