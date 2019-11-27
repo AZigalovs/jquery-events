@@ -1,5 +1,9 @@
 $(document).ready(function() {
  
+    $("#button_effects1").click(function(){
+        $("#button_effects1").hide("slow");
+    });
+
     $("p").click(function(){
         $("p").css("color", "red");
     });
